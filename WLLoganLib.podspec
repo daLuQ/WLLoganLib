@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WLLoganLib"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "WLLoganLib"
   spec.description  = <<-DESC
 测试远程仓库WLLoganLib
@@ -16,7 +16,8 @@ Pod::Spec.new do |spec|
 #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
+spec.default_subspec = 'Person'
 spec.subspec 'WLLogan' do |wLLogan|
-wLLogan.source_files = "Classes/{WL}*.{h,m}"
+wLLogan.source_files = "Classes/{WL}*"
 end
 end
