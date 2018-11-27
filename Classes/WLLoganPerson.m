@@ -12,4 +12,7 @@
 + (void)printName {
     NSLog(@"name = Logan");
 }
++ (void)run {
+    NSLog(@"slow run");
+}
 @end

@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 @interface WLLoganPerson : NSObject
 + (void)printName;
++ (void)run;
 @end
 
